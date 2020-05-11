@@ -8,6 +8,6 @@ class Teacher < User
   end
 
   def teach
-    return KNOWLEDGE
+    return KNOWLEDGE[0]
   end
 end
